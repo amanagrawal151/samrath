@@ -5,8 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   server: {
     // Change the host to localhost
-    host: 'https://samrath.onrender.com',
+    host: 'localhost',
   },
-  base: "/will-you-be-my-valentine",
   plugins: [react()],
 });
